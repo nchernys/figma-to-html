@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadoo Travel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="./images/Logo.svg" alt="logo" /></div>
+      <div class="nav-menu-center">
+        <ul>
+          <li>Destinations</li>
+          <li>Hotels</li>
+          <li>Flights</li>
+          <li>Bookings</li>
+        </ul>
+      </div>
+      <div class="nav-menu-right">
+        <ul>
+          <li>Login</li>
+          <li><button>Sign up</button></li>
+          <li>
+            <select name="lang" id="lang">
+              <option value="en">EN</option>
+              <option value="fr">FR</option>
+              <option value="de">DE</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h3 class="hero-subtitle">Best Destinations Around the World</h3>
+        <h1 class="hero-title">
+          Travel, enjoy <br />
+          and live a new <br />
+          and full life
+        </h1>
+        <p class="hero-description">
+          Built Wicket longer admire do barton vanity itself do in it. Preferred
+          to sportsmen it engrossed listening. Park gate sell they west hard for
+          the.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Find out more</button>
+          <button class="btn btn-secondary">
+            <span class="btn-icon"
+              ><img src="./images/play-btn.png" alt="play button"
+            /></span>
+            Play Demo
+          </button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          class="traveller-img"
+          src="./images/traveller.png"
+          alt="Traveler with backpack on luggage"
+        />
+        <img src="./images/plane.svg" class="plane-front" alt="plane image" />
+        <img src="./images/plane.svg" class="plane-back" alt="plane image" />
+      </div>
+    </section>
+    <section class="services-section">
+      <div class="services-header">
+        <p class="services-category">CATEGORY</p>
+        <h2 class="services-title">We Offer Best Services</h2>
+      </div>
+
+      <div class="services-grid">
+        <img src="./images/deco-cross.png" class="deco-plus" alt="deco" />
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <img
+              src="./images/satellite-dish.png"
+              alt="Calculated Weather Icon"
+            />
+          </div>
+          <h3 class="service-title">Calculated Weather</h3>
+          <p class="service-description">
+            Built Wicket longer admire do barton vanity itself do in it.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card highlight">
+          <div class="service-icon">
+            <img src="./images/plane.png" alt="Best Flights Icon" />
+          </div>
+          <h3 class="service-title">Best Flights</h3>
+          <p class="service-description">
+            Engrossed listening. Park gate sell they west hard for the.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="./images/mic.png" alt="Local Events Icon" />
+          </div>
+          <h3 class="service-title">Local Events</h3>
+          <p class="service-description">
+            Barton vanity itself do in it. Preferred to men it engrossed
+            listening.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="./images/power-supply.png" alt="Customization Icon" />
+          </div>
+
+          <h3 class="service-title">Customization</h3>
+          <p class="service-description">
+            We deliver outsourced aviation services for military customers.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="destinations-section">
+      <div class="destinations-header">
+        <p class="destinations-category">Top Selling</p>
+        <h2 class="destinations-title">Top Destinations</h2>
+      </div>
+
+      <div class="destinations-grid">
+        <!-- Destination 1 -->
+        <div class="destination-card">
+          <div class="destination-info">
+            <h3 class="destination-name">Rome, Italy</h3>
+            <p class="destination-price">$5,42k</p>
+            <p class="destination-duration">
+              <span class="icon">✈</span> 10 Days Trip
+            </p>
+          </div>
+        </div>
+
+        <!-- Destination 2 -->
+        <div class="destination-card">
+          <div class="destination-info">
+            <h3 class="destination-name">London, UK</h3>
+            <p class="destination-price">$4.2k</p>
+            <p class="destination-duration">
+              <span class="icon">✈</span> 12 Days Trip
+            </p>
+          </div>
+        </div>
+
+        <!-- Destination 3 -->
+        <div class="destination-card">
+          <div class="destination-info">
+            <h3 class="destination-name">Full Europe</h3>
+            <p class="destination-price">$15k</p>
+            <p class="destination-duration">
+              <span class="icon">✈</span> 28 Days Trip
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="steps-section">
+      <div class="steps-content">
+        <p class="steps-category">Easy and Fast</p>
+        <h2 class="steps-title">
+          Book Your Next Trip <br />
+          In 3 Easy Steps
+        </h2>
+
+        <div class="steps-list">
+          <!-- Step 1 -->
+          <div class="step">
+            <img
+              class="step-icon"
+              src="./images/steps-icon-yellow.png"
+              alt="First step to book a trip"
+            />
+            <div class="step-info">
+              <h3 class="step-title">Choose Destination</h3>
+              <p class="step-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step">
+            <img
+              class="step-icon"
+              src="./images/steps-icon-red.png"
+              alt="Second step to book a trip"
+            />
+            <div class="step-info">
+              <h3 class="step-title">Make Payment</h3>
+              <p class="step-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step">
+            <img
+              class="step-icon"
+              src="./images/steps-icon-green.png"
+              alt="Third step to book a trip"
+            />
+            <div class="step-info">
+              <h3 class="step-title">Reach Airport on Selected Date</h3>
+              <p class="step-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                tortor tempus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="steps-card-details">
+        <div class="steps-card">
+          <div class="card-image">
+            <img src="./images/greece.jpg" alt="Trip to Greece" />
+          </div>
+          <div class="card-info">
+            <h3 class="card-title">Trip To Greece</h3>
+            <p class="card-date">14-29 June | By Robbin jr</p>
+            <div class="card-icons">
+              <img src="./images/LEAF.png" alt="icon" />
+              <img src="./images/map.png" alt="icon" />
+              <img src="./images/send.png" alt="" />
+            </div>
+            <p class="card-people">
+              <img src="./images/building.png" alt="building icon" /><span
+                >24 people going</span
+              >
+              <img src="./images/heart.png" alt="like" />
+            </p>
+          </div>
+          <div class="card-tag">
+            <div class="tag-image">
+              <img src="./images/img-tag.png" alt="Greece" />
+            </div>
+            <div class="tag-details">
+              <p>Ongoing</p>
+              <p>Trip to Rome</p>
+              <p><span>40%</span> completed</p>
+              <div class="progress-bar">
+                <div class="progress-procentage"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <div class="testimonials-content">
+        <p class="testimonials-subtitle">Testimonials</p>
+        <h2 class="testimonials-title">What People Say About Us.</h2>
+        <div class="testimonials-navigation">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <div class="testimonials-feedback">
+        <div class="testimonial-card">
+          <div class="testimonial-user">
+            <img src="./images/user.png" alt="Mike Taylor" class="user-image" />
+          </div>
+          <div class="testimonial-text">
+            <p class="testimonial-quote">
+              “On the Windows talking painted posture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <p class="testimonial-name">Mike Taylor</p>
+            <p class="testimonial-location">Lahore, Pakistan</p>
+          </div>
+        </div>
+        <div class="testimonial-card-bg">
+          <div class="testimonial-user">
+            <img src="./images/user.png" alt="Mike Taylor" class="user-image" />
+          </div>
+          <div class="testimonial-text">
+            <p class="testimonial-quote">
+              “On the Windows talking painted posture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <p class="testimonial-name">Chris Thompson</p>
+            <p class="testimonial-location">CEO of Red Button</p>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <img src="./images/arrow-up.png" alt="Scroll up" />
+        <img src="./images/arrow-down.png" alt="Scroll down" />
+      </div>
+    </section>
+    <section class="logos-section">
+      <img src="./images/logos/logo1.png" alt="Axon logo" />
+      <img src="./images/logos/logo2.png" alt="JetStar logo" />
+      <img src="./images/logos/logo3.png" alt="Expedia logo" />
+      <img src="./images/logos/logo4.png" alt="Qantas logo" />
+      <img src="./images/logos/logo5.png" alt="Alitalia logo" />
+    </section>
+    <section class="subscribe-section">
+      <img class="icon-telegram" src="./images/telegram.png" alt="Subscribe" />
+      <h2 class="subscribe-title">
+        Subscribe to get information, latest news and other interesting offers
+        about Jadoo
+      </h2>
+      <div class="subscribe-form">
+        <img class="icon-email" src="./images/email.png" alt="" /><input
+          type="text"
+          name="subscribe"
+          id="subscribe"
+          placeholder="Your email"
+        />
+        <button>Subscribe</button>
+      </div>
+    </section>
+    <footer class="footer-section">
+      <div class="footer-content">
+        <!-- Logo and Description -->
+        <div class="footer-logo">
+          <h2 class="logo">Jadoo.</h2>
+          <p class="footer-description">
+            Book your trip in minutes, get full control for much longer.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3 class="footer-heading">Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Contact</h3>
+            <ul>
+              <li><a href="#">Help/FAQ</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">More</h3>
+            <ul>
+              <li><a href="#">Airlinefees</a></li>
+              <li><a href="#">Airline</a></li>
+              <li><a href="#">Low fare tips</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Social Media and App Links -->
+        <div class="footer-extra">
+          <div class="social-icons">
+            <a href="#" class="social-icon"
+              ><img src="./images/facebook.png" alt="Facebook"
+            /></a>
+            <a href="#" class="social-icon"
+              ><img src="./images/instagram.png" alt="Instagram"
+            /></a>
+            <a href="#" class="social-icon"
+              ><img src="./images/twitter.png" alt="Twitter"
+            /></a>
+          </div>
+          <div class="app-links">
+            <p>Discover our app</p>
+            <a href="#"><img src="./images/google.png" alt="Google Play" /></a>
+            <a href="#"><img src="./images/apple.png" alt="App Store" /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>All rights reserved @jadoo.co</p>
+      </div>
+    </footer>
+  </body>
+</html>
