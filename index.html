@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <deco class="bg-deco">
+      <img src="./images/decore.svg" alt="background decoration" />
+    </deco>
     <nav>
       <div class="logo"><img src="./images/Logo.svg" alt="logo" /></div>
       <div class="nav-menu-center">
@@ -34,11 +37,7 @@
     <section class="hero-section">
       <div class="hero-content">
         <h3 class="hero-subtitle">Best Destinations Around the World</h3>
-        <h1 class="hero-title">
-          Travel, enjoy <br />
-          and live a new <br />
-          and full life
-        </h1>
+        <h1 class="hero-title">Travel, enjoy and live a new and full life</h1>
         <p class="hero-description">
           Built Wicket longer admire do barton vanity itself do in it. Preferred
           to sportsmen it engrossed listening. Park gate sell they west hard for
@@ -57,11 +56,9 @@
       <div class="hero-image">
         <img
           class="traveller-img"
-          src="./images/traveller.png"
+          src="./images/traveller-group.png"
           alt="Traveler with backpack on luggage"
         />
-        <img src="./images/plane.svg" class="plane-front" alt="plane image" />
-        <img src="./images/plane.svg" class="plane-back" alt="plane image" />
       </div>
     </section>
     <section class="services-section">
@@ -160,16 +157,18 @@
               <span class="icon">✈</span> 28 Days Trip
             </p>
           </div>
+          <img
+            class="destinations-deco-spiral"
+            src="./images/Decore.png"
+            alt="destination decoration"
+          />
         </div>
       </div>
     </section>
     <section class="steps-section">
       <div class="steps-content">
         <p class="steps-category">Easy and Fast</p>
-        <h2 class="steps-title">
-          Book Your Next Trip <br />
-          In 3 Easy Steps
-        </h2>
+        <h2 class="steps-title">Book Your Next Trip In 3 Easy Steps</h2>
 
         <div class="steps-list">
           <!-- Step 1 -->
@@ -235,9 +234,10 @@
               <img src="./images/send.png" alt="" />
             </div>
             <p class="card-people">
-              <img src="./images/building.png" alt="building icon" /><span
-                >24 people going</span
-              >
+              <span>
+                <img src="./images/building.png" alt="building icon" />
+                <span>24 people going</span>
+              </span>
               <img src="./images/heart.png" alt="like" />
             </p>
           </div>
@@ -269,32 +269,42 @@
       </div>
 
       <div class="testimonials-feedback">
-        <div class="testimonial-card">
-          <div class="testimonial-user">
-            <img src="./images/user.png" alt="Mike Taylor" class="user-image" />
+        <div class="testimonial-cards">
+          <div class="testimonial-card">
+            <div class="testimonial-user">
+              <img
+                src="./images/user.png"
+                alt="Mike Taylor"
+                class="user-image"
+              />
+            </div>
+            <div class="testimonial-text">
+              <p class="testimonial-quote">
+                “On the Windows talking painted posture yet its express parties
+                use. Sure last upon he same as knew next. Of believed or
+                diverted no.”
+              </p>
+              <p class="testimonial-name">Mike Taylor</p>
+              <p class="testimonial-location">Lahore, Pakistan</p>
+            </div>
           </div>
-          <div class="testimonial-text">
-            <p class="testimonial-quote">
-              “On the Windows talking painted posture yet its express parties
-              use. Sure last upon he same as knew next. Of believed or diverted
-              no.”
-            </p>
-            <p class="testimonial-name">Mike Taylor</p>
-            <p class="testimonial-location">Lahore, Pakistan</p>
-          </div>
-        </div>
-        <div class="testimonial-card-bg">
-          <div class="testimonial-user">
-            <img src="./images/user.png" alt="Mike Taylor" class="user-image" />
-          </div>
-          <div class="testimonial-text">
-            <p class="testimonial-quote">
-              “On the Windows talking painted posture yet its express parties
-              use. Sure last upon he same as knew next. Of believed or diverted
-              no.”
-            </p>
-            <p class="testimonial-name">Chris Thompson</p>
-            <p class="testimonial-location">CEO of Red Button</p>
+          <div class="testimonial-card-bg">
+            <div class="testimonial-user">
+              <img
+                src="./images/user.png"
+                alt="Mike Taylor"
+                class="user-image"
+              />
+            </div>
+            <div class="testimonial-text">
+              <p class="testimonial-quote">
+                “On the Windows talking painted posture yet its express parties
+                use. Sure last upon he same as knew next. Of believed or
+                diverted no.”
+              </p>
+              <p class="testimonial-name">Chris Thompson</p>
+              <p class="testimonial-location">CEO of Red Button</p>
+            </div>
           </div>
         </div>
       </div>
@@ -311,18 +321,32 @@
       <img src="./images/logos/logo5.png" alt="Alitalia logo" />
     </section>
     <section class="subscribe-section">
+      <img
+        class="subscribe-deco-right"
+        src="./images/deco-circle-lines.png"
+        alt="decoration circles"
+      />
+      <img
+        class="subscribe-deco-bottom"
+        src="./images/deco-circle-lines.png"
+        alt="decoration circles"
+      />
+      <img class="subscribe-deco-plus" src="./images/deco-plus-2.png" alt="" />
       <img class="icon-telegram" src="./images/telegram.png" alt="Subscribe" />
       <h2 class="subscribe-title">
         Subscribe to get information, latest news and other interesting offers
         about Jadoo
       </h2>
       <div class="subscribe-form">
-        <img class="icon-email" src="./images/email.png" alt="" /><input
-          type="text"
-          name="subscribe"
-          id="subscribe"
-          placeholder="Your email"
-        />
+        <input-wrapper>
+          <img class="icon-email" src="./images/email.png" alt="" /><input
+            type="text"
+            name="subscribe"
+            id="subscribe"
+            placeholder="Your email"
+          />
+        </input-wrapper>
+
         <button>Subscribe</button>
       </div>
     </section>
